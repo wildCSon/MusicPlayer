@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="">
+	<title>music-player</title>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<div class="content-wrapper">
+		<div class="song-img">
+			<div class="img-wrapper">
+				<img src="./source/song_1.jpg">
+			</div>
+		</div>
+		<div class="song-info">
+		</div>
+		<div class="play-area">
+			<div class="current-time">00:00</div>
+			<div class="processor">
+				<div class="pro-bottom"></div>
+				<div class="pro-top">
+					<span class="silder-point"></span>
+				</div>
+			</div>
+			<div class="all-time">04:00</div>
+		</div>
+		<div class="play-control">
+			<div class="btn-wrap like-btn"></div>
+			<div class="btn-wrap prev-btn"></div>
+			<div class="btn-wrap play-btn"></div>
+			<div class="btn-wrap next-btn"></div>
+			<div class="btn-wrap list-btn"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src='./js/zepto.min.js'></script>
+	<script type="text/javascript" src='./js/gaussBlur.js'></script>
+	<script type="text/javascript" src="./js/render.js"></script>
+	<script type="text/javascript" src='./js/controlManager.js'></script>
+	<script type="text/javascript" src='./js/audioManager.js'></script>
+	<script type="text/javascript" src='./js/processor.js'></script>
+	<script type="text/javascript" src='./js/playlist.js'></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
